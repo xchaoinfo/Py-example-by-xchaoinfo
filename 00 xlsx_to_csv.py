@@ -7,6 +7,16 @@
 
 import openpyxl
 import csv
+import pyexcelerate
+
+
+def csv_to_excel(fn="test.csv", coding="utf-8"):
+    with open(fn, encoding=coding) as fr:
+        rows = csv.reader(fr)
+        data = [r for r in rows]
+    wb = pyexcelerate.Workbook()
+    wb.new_sheet(fn.split(".")[0], data=data)
+    wb.save(fn.replace("csv", 'xlsx'))
 
 
 def xlsx_to_csv(fn):
