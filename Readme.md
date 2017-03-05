@@ -1,4 +1,4 @@
-# Py-sample
+# Py-sample-by-xchaoinfo
                                     
 tools for solving problems with Python 
 
@@ -12,3 +12,7 @@ tools for solving problems with Python
 - 01 py_connect_mysql
 
         connect to mysql with python
+
+- 02 csv_example_write_and_read.py
+    
+        read and write csv file
