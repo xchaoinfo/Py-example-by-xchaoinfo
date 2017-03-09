@@ -57,6 +57,12 @@ def read_csv_dict(fn="data2.csv"):
 
 # example 3 list 或 tuple 写入到 csv
 def write_csv(fn="data1.csv"):
+    """
+    可以通过指定带 BOM 的 UTF-8 的编码方式，
+    解决 Excel 直接打开 csv 乱码的问题
+    即 encoding="utf-8-sig"
+    """
+    # with open(fn, 'w', newline="", encoding="utf-8-sig") as fw:
     with open(fn, 'w', newline="", encoding="utf-8") as fw:
         fwcsv = csv.writer(fw)
         one = ("张三", "北京", "25")  # tuple
@@ -78,6 +84,8 @@ def write_dict_csv(fn="data2.csv"):
         "年龄": "30"
     }
     fieldnames = ["姓名", "城市", "年龄"]
+
+    # with open(fn, 'w', newline="", encoding="utf-8-sig") as fwd:
     with open(fn, 'w', newline="", encoding="utf-8") as fwd:
         fwdcsv = csv.DictWriter(fwd, fieldnames=fieldnames)
         fwdcsv.writeheader()
