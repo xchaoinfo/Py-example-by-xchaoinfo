@@ -26,6 +26,8 @@ def merge_pdf(infnList, outfn):
     pdf_output = PdfFileWriter()
     for infn in infnList:
         pdf_input = PdfFileReader(open(infn, 'rb'))
+        # fuzzy=True 能够解决 PDF 读取的一些常见错误
+        # pdf_input = PdfFileReader(open(infn, 'rb'), fuzzy=True)
         # 获取 pdf 共用多少页
         page_count = pdf_input.getNumPages()
         print(page_count)
