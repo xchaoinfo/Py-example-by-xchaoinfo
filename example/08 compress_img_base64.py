@@ -1,3 +1,4 @@
+"""对图片压缩后, 转为 base64编码"""
 import base64
 from io import BytesIO
 

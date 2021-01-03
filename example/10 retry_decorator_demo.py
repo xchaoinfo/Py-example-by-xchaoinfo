@@ -1,3 +1,4 @@
+"""重复尝试次数的装饰器 demo"""
 import time
 import logging
 from funtools import wraps

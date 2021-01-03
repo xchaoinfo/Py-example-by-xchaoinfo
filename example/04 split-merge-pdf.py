@@ -3,9 +3,8 @@
 # @Date    : 2017-04-29 23:03:57
 # @Author  : xchaoinfo (xchaoinfo)
 # @github  : https://github.com/xchaoinfo
-"""
-pip install PyPDF2
-"""
+"""分割合并 pdf 文件"""
+# pip install PyPDF2
 
 from PyPDF2 import PdfFileReader, PdfFileWriter
 

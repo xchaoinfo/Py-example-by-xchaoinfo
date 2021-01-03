@@ -3,7 +3,7 @@
 # @Date    : 2017-03-16 14:14:03
 # @Author  : xchaoinfo (xchaoinfo)
 # @github  : https://github.com/xchaoinfo
-
+"""通过调用 xlwings 删除 Excel 文件中的特定内容"""
 import xlwings as xw
 
 fn = "data.xlsx"

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Date    : 2019-09-19 09:05:06
 # @Author  : xchaoinfo (github.com/xchaoinfo)
-
+"""将一段视频, 转为一组图片."""
 import os
 import cv2
 

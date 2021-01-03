@@ -4,7 +4,7 @@
 # @Author  : xchaoinfo (xchaoinfo@qq.com)
 # @Link    : https://github.com/xchaoinfo
 # @Version : v.0.0
-
+"""通过 Python 连接 Mysql 的 Demo"""
 import mysql.connector as my
 import configparser
 
