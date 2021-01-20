@@ -48,6 +48,10 @@
     
     重复尝试次数的装饰器 demo
 
+- 11 tree_xml_demo.py
+    
+    解析 xml 的结构为目录树，能够快速的对 xml 的结构有基本的了解。这也是 nonlocal 新关键字的一个 demo
+
 
 
 ## 生成方法

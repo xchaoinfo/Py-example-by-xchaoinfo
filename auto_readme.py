@@ -14,7 +14,7 @@ def read_file(filename):
 
 def get_pyfile_list(src_folder):
     pyfile_list = [os.path.join(src_folder, fn) for fn in os.listdir(src_folder) if fn.endswith(".py")]
-    return pyfile_list
+    return sorted(pyfile_list)
 
 
 def parser_docs_from_pyfile(src_folder="example"):
