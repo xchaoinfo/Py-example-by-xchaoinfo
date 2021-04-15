@@ -25,6 +25,7 @@ def parser_docs_from_pyfile(src_folder="example"):
         # 读取 .py 文件
         pyfile_content = read_file(pyfile)
         docs = ast.get_docstring(ast.parse(pyfile_content))
+        docs = docs.replace("\n", " ")
         script_info = {
             "filename": filename,
             "docs": docs

@@ -52,6 +52,10 @@
     
     解析 xml 的结构为目录树，能够快速的对 xml 的结构有基本的了解。这也是 nonlocal 新关键字的一个 demo
 
+- 12 cython-package-setup-demo.py
+    
+    利用 Cython 对 Python 包进行加密 demo, MANIFEST.in and include_package_data=True, 打包资源文件
+
 
 
 ## 生成方法
