@@ -56,6 +56,10 @@
     
     利用 Cython 对 Python 包进行加密 demo, MANIFEST.in and include_package_data=True, 打包资源文件
 
+- 13 logger_demo.py
+    
+    可在运行时，修改日志输出的文件位置
+
 
 
 ## 生成方法
