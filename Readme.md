@@ -60,6 +60,10 @@
     
     可在运行时，修改日志输出的文件位置
 
+- 14 zipfile_encrypt.py
+    
+    通过 pyzipper 模块创建加密的 zip 压缩包
+
 
 
 ## 生成方法
