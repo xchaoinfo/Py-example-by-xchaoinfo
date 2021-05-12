@@ -2,11 +2,15 @@
 
 import logging
 
-app_db_logger = logging.getLogger()
+# 必须给一个名字，否则会返回 logging.root
+# 会共用 logging 的根日志 handlers
+app_db_logger = logging.getLogger("app_name")
 
 
 def set_app_logger(app_logger, log_file, logger_name=None):
     logger_name = logger_name or "app_db_logger"
+    # 设置日志别名
+    app_logger.name = logger_name
     file_handler = logging.FileHandler(
         filename=log_file,
         encoding="utf-8"
