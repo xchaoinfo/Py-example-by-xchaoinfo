@@ -64,6 +64,10 @@
     
     通过 pyzipper 模块创建加密的 zip 压缩包
 
+- 15 pandas_loss_rows_solve.py
+    
+    pandas_csv丢失部分行的问题
+
 
 
 ## 生成方法
