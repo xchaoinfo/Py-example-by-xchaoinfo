@@ -68,6 +68,10 @@
     
     pandas_csv丢失部分行的问题
 
+- 16 scrapy_simple_demo.py
+    
+    scrapy 简单的使用demo 
+
 
 
 ## 生成方法
